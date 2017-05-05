@@ -1,9 +1,25 @@
 body {
-    background-color: aqua;
     margin: 0;
+    background-image: url("../img/mörkrymd.jpg");
 }
 h1 {
     font-size: 100px;
     color: white;
     font-family: Roboto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.socialmedia {
+    color: red;
+    background-color: aqua;
+}
+.starwarslogga {
+
+}
+.links {
+    display: flex;
+    justify-content: center;
 }
