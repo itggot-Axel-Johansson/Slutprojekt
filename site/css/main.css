@@ -10,6 +10,9 @@ h1 {
 header {
     display: flex;
     justify-content: space-between;
+
+}
+.paddingtop16 {
     padding-top: 16px;
 }
 .socialmedia {
@@ -21,5 +24,51 @@ header {
 }
 .links {
     display: flex;
+    justify-content: space-around;
+    /* background-color: rgba(0,0,0,0.5); */
+
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.column i {
+    color: white;
+    font-size: 30px;
+}
+.rowcenter {
+    display: flex;
     justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+@media screen
+and (orientation: portrait)
+and (max-device-width: 767px) {
+    .links {
+        background-color: aqua;
+    }
+
+}
+@media screen
+and (orientation: landscape)
+and (max-device-width: 1023px) {
+
+}
+@media screen
+and (max-device-width: 321px) {
+
+}
+
