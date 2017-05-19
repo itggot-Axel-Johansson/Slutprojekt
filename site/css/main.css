@@ -19,12 +19,14 @@ header {
     background-color: aqua;
 }
 .starwarslogga {
-
+    height: 172px;
+    width: 400px;
 }
 .links {
     display: flex;
     justify-content: space-around;
-    background-color: rgba(200,200,200,0.5);
+    width: 80%;
+    padding-left: 10%;
 
 }
 a {
@@ -37,14 +39,40 @@ a {
     flex-direction: column;
 }
 .iconfärg i {
-    color: yellow;
+    color: gold;
     font-size: 30px;
 }
 .rowcenter {
     display: flex;
     justify-content: center;
 }
-
+.legobit {
+    height: 32px;
+    width: 45px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 80%;
+    padding-left: 10%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+}
+.box1 {
+    flex-grow: 2;
+    background-color: gold;
+}
+.box2 {
+    flex-grow: 1;
+    background-color: aliceblue;
+}
+.margin16 {
+    margin: 8px;
+}
 
 
 
@@ -57,7 +85,21 @@ a {
 and (orientation: portrait)
 and (max-device-width: 767px) {
     .links {
-        background-color: aqua;
+    }
+    .starwarslogga {
+        height: 34px;
+        width: 80px;
+    }
+    .legobit {
+        height: 16px;
+        width: 23px;
+    }
+    .iconfärg i {
+        color: gold;
+        font-size: 15px;
+    }
+    a {
+        font-size: 10px;
     }
 
 }
