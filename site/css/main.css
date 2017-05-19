@@ -10,9 +10,8 @@ h1 {
 header {
     display: flex;
     justify-content: space-between;
-
 }
-.paddingtop16 {
+.paddingtop16px {
     padding-top: 16px;
 }
 .socialmedia {
@@ -25,7 +24,7 @@ header {
 .links {
     display: flex;
     justify-content: space-around;
-    /* background-color: rgba(0,0,0,0.5); */
+    background-color: rgba(200,200,200,0.5);
 
 }
 a {
@@ -37,8 +36,8 @@ a {
     display: flex;
     flex-direction: column;
 }
-.column i {
-    color: white;
+.iconfärg i {
+    color: yellow;
     font-size: 30px;
 }
 .rowcenter {
