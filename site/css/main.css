@@ -12,11 +12,17 @@ header {
     justify-content: space-between;
 }
 .readmore {
-    border: white solid 1px;
+    border: solid gold 1px;
     border-radius: 10%;
 }
 p {
-    color: white;
+    color: gold;
+    font-family: Roboto;
+    font-size: 24px;
+}
+p2 {
+    color: gold;
+    font-family: Roboto;
 }
 .paddingtop16px {
     padding-top: 16px;
@@ -31,20 +37,31 @@ p {
 }
 .links {
     display: flex;
-    justify-content: space-around;
-    width: 80%;
-    padding-left: 10%;
+    width: 1000px;
+    background-color: black;
 }
 a {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-decoration: none;
 }
+.size1 {
+    flex-grow: 1;
+}
 .gold {
     color: gold;
 }
-a :hover {
-    background-color: white;
+.borderleft {
+    border-left: solid 1px gold;
+}
+.borderright {
+    border-right: solid 1px gold;
+}
+.borderbottom {
+    border-color: white;
+}
+.links :hover {
+    background-color: ;
 }
 .column {
     display: flex;
@@ -64,7 +81,11 @@ a :hover {
 }
 .center {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+}
+.width {
+    padding-left:
 }
 .container {
     width: 1000px;
@@ -72,30 +93,45 @@ a :hover {
     flex-direction: column;
     height: 400px;
 }
+.height1200 {
+    height: 1000px;
+}
+h2 {
+    color: gold;
+    font-family: Roboto;
+}
 .row {
     display: flex;
     flex-direction: row;
 }
+
 .size2 {
     flex-grow: 2;
 }
-.rightborder {
-    border-right: solid white 1px;
-}
+
 .box1 {
     flex-grow: 2;
 }
 .box2 {
     flex-grow: 1;
-    background-color: aliceblue;
+    background-color: aqua;
 }
 .margin16 {
     margin: 8px;
 }
+.paddingbottom {
+    padding-bottom: 32px;
+}
+.iframe {
+    width: 560px;
+    height: 315px;
+}
 
 
 
-
+.aqua {
+    background-color: aqua;
+}
 
 
 
@@ -123,6 +159,19 @@ and (max-device-width: 767px) {
     .column{
         display: flex;
         flex-direction: column;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .bild {
+        width: 360px;
+    }
+    .iframe {
+        width: 360px;
+        height: 202.5px;
     }
 
 }
