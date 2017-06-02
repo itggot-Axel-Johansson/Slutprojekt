@@ -78,6 +78,11 @@ a {
     display: flex;
     justify-content: center;
 }
+.columncenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .legobit {
     height: 32px;
     width: 45px;
@@ -102,6 +107,9 @@ a {
 h2 {
     color: gold;
     font-family: Roboto;
+}
+.artikeltext {
+    font-size: 12px;
 }
 .row {
     display: flex;
@@ -129,21 +137,40 @@ h2 {
     width: 560px;
     height: 315px;
 }
-
+.lukeanddarth {
+    display: none;
+}
 
 
 .aqua {
     background-color: aqua;
 }
+.sprite {
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    display: block;
+}
 
+.sprite-Starwars-logo {
+    width: 400px;
+    height: 172px;
+    background-position: -5px -5px;
+}
 
+.sprite-lukepnganddarth {
+    width: 1000px;
+    height: 1039px;
+    background-position: -1040px -5px;
+}
+
+h2 {
+    font-size: 24px;
+}
 
 
 @media screen
 and (orientation: portrait)
 and (max-device-width: 767px) {
-    .links {
-    }
     .starwarslogga {
         height: 34px;
         width: 80px;
@@ -159,7 +186,7 @@ and (max-device-width: 767px) {
     a {
         font-size: 10px;
     }
-    .column{
+    .columnmobil{
         display: flex;
         flex-direction: column;
     }
@@ -174,8 +201,42 @@ and (max-device-width: 767px) {
     }
     .iframe {
         width: 360px;
-        height: 202.5px;
+        height: 202px;
     }
+    .backgroundimagenone {
+        background-image: none;
+        width: auto;
+        height: auto;
+    }
+    .lukeanddarth {
+        display: block;
+        width: 360px;
+    }
+    .artikeltext {
+        font-size: 8px;
+    }
+    .yodapicture {
+        width: 100px;
+        height: 142px;
+    }
+    .bookpiccy {
+        height: 120px;
+        width: 100px;
+    }
+    .bf2picture {
+        width: 200px;
+        height: 112px;
+    }
+    .container {
+        height: 500px;
+    }
+    .mobilpaddingleft40 {
+        padding-left: 40px;
+    }
+    .noborder {
+        border: none;
+    }
+
 
 }
 @media screen
