@@ -27,6 +27,9 @@ p2 {
 .paddingtop16px {
     padding-top: 16px;
 }
+.padding16left {
+    padding-left: 16px;
+}
 .socialmedia {
     color: red;
     background-color: aqua;
@@ -114,7 +117,7 @@ h2 {
 }
 .box2 {
     flex-grow: 1;
-    background-color: aqua;
+    background-color: black;
 }
 .margin16 {
     margin: 8px;
@@ -183,5 +186,22 @@ and (max-device-width: 1023px) {
 @media screen
 and (max-device-width: 321px) {
 
+}
+/** Divar till JS-funktioner/-metoder **/
+.efter {
+    display: block;
+    animation: downwards 0.5s 1;
+}
+.innan {
+    display: none;
+}
+@keyframes downwards {
+    0% {
+        transform: translate3d(0, -50%, 0);
+        visibility: visible;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
 }
 
