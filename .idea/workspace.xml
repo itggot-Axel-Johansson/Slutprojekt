@@ -23,11 +23,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.49">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/main.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="238">
-                  <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+                  <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -37,17 +37,17 @@
             <entry file="file://$PROJECT_DIR$/site/movies.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="3026">
-                  <caret line="178" column="7" lean-forward="false" selection-start-line="178" selection-start-column="7" selection-end-line="178" selection-end-column="7" />
+                  <caret line="178" column="7" selection-start-line="178" selection-start-column="7" selection-end-line="178" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sith_vs_jedi.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sith_vs_jedi.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site/sith_vs_jedi.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="579">
-                  <caret line="62" column="16" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+                <state relative-caret-position="705">
+                  <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -56,8 +56,8 @@
           <file leaf-file-name="a_new_hope.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site/a_new_hope.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="57" column="58" lean-forward="false" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
+                <state relative-caret-position="969">
+                  <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
                   <folding />
                 </state>
               </provider>
@@ -73,7 +73,7 @@
                 <entry file="file://$PROJECT_DIR$/site/css/main.css">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="647">
-                      <caret line="267" column="32" lean-forward="false" selection-start-line="267" selection-start-column="32" selection-end-line="267" selection-end-column="32" />
+                      <caret line="267" column="32" selection-start-line="267" selection-start-column="32" selection-end-line="267" selection-end-column="32" />
                       <folding />
                     </state>
                   </provider>
@@ -87,7 +87,7 @@
                 <entry file="file://$PROJECT_DIR$/site/js/js.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="136">
-                      <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                      <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                       <folding>
                         <element signature="n#!!doc;n#add#0" expanded="false" />
                       </folding>
@@ -147,8 +147,18 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -277,12 +287,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -305,7 +309,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
+      <command value="run-script" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -356,14 +360,15 @@
       <workItem from="1496436401461" duration="5246000" />
       <workItem from="1496484127553" duration="13194000" />
       <workItem from="1496503698334" duration="9730000" />
+      <workItem from="1496520170971" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73027000" />
+    <option name="totallyTimeSpent" value="73032000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -424,7 +429,7 @@
     <entry file="file://$PROJECT_DIR$/site/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -432,7 +437,7 @@
     <entry file="file://$PROJECT_DIR$/site/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -440,7 +445,7 @@
     <entry file="file://$PROJECT_DIR$/site/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -448,7 +453,7 @@
     <entry file="file://$PROJECT_DIR$/site/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -456,7 +461,7 @@
     <entry file="file://$PROJECT_DIR$/site/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -464,7 +469,7 @@
     <entry file="file://$PROJECT_DIR$/site/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -472,7 +477,7 @@
     <entry file="file://$PROJECT_DIR$/site/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -480,7 +485,7 @@
     <entry file="file://$PROJECT_DIR$/site/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -491,26 +496,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/misc/psd/lukeskywalker.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misc/psd/vaderpsd.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misc/psd/vitloggastarwars.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/psd/lukeskywalker.psd" />
+    <entry file="file://$PROJECT_DIR$/misc/psd/vaderpsd.psd" />
+    <entry file="file://$PROJECT_DIR$/misc/psd/vitloggastarwars.psd" />
+    <entry file="file://$PROJECT_DIR$/site/img/2.png" />
     <entry file="file://$PROJECT_DIR$/site/img/lukeDARTH360.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -526,26 +515,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/rogue_one.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/space.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/site/img/rogue_one.jpeg" />
+    <entry file="file://$PROJECT_DIR$/site/img/space.jpg" />
     <entry file="file://$PROJECT_DIR$/site/img/star-wars-book-3_H300_W250.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/Star_Wars_Cafe.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/site/img/Star_Wars_Cafe.jpg" />
     <entry file="file://$PROJECT_DIR$/site/img/yoda_H=300.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -561,41 +538,21 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/bf2.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/site/img/bf2.psd" />
     <entry file="file://$PROJECT_DIR$/site/img/lukeskywalker.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/lukeskywalker.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/lukeVSdarthvader.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/lukeVSdarthvader1000px.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/site/img/lukeskywalker.png" />
+    <entry file="file://$PROJECT_DIR$/site/img/lukeVSdarthvader.png" />
+    <entry file="file://$PROJECT_DIR$/site/img/lukeVSdarthvader1000px.png" />
     <entry file="file://$PROJECT_DIR$/site/img/lukepnganddarth.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/lukepng.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/site/img/lukepng.png" />
     <entry file="file://$PROJECT_DIR$/site/img/lukepng.psd">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -604,7 +561,7 @@
     <entry file="file://$PROJECT_DIR$/site/movies.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3026">
-          <caret line="178" column="7" lean-forward="false" selection-start-line="178" selection-start-column="7" selection-end-line="178" selection-end-column="7" />
+          <caret line="178" column="7" selection-start-line="178" selection-start-column="7" selection-end-line="178" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -619,43 +576,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/vader.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/site/img/vader.jpg" />
     <entry file="file://$PROJECT_DIR$/site/img/mörkrymd.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/Star_Wars_Logo..png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/vaderpsd.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/img/starwarsloggalutande.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/site/img/Star_Wars_Logo..png" />
+    <entry file="file://$PROJECT_DIR$/site/img/vaderpsd.png" />
+    <entry file="file://$PROJECT_DIR$/site/img/starwarsloggalutande.png" />
     <entry file="file://$PROJECT_DIR$/site/a_new_hope.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="57" column="58" lean-forward="false" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
+        <state relative-caret-position="969">
+          <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -670,11 +603,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/misc/psd/obiwan.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/psd/obiwan.psd" />
     <entry file="file://$PROJECT_DIR$/misc/psd/Starwars-logo.psd">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -685,15 +614,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/misc/psd/two_sides_of_the_force.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/psd/two_sides_of_the_force.psd" />
     <entry file="file://$PROJECT_DIR$/site/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="647">
-          <caret line="267" column="32" lean-forward="false" selection-start-line="267" selection-start-column="32" selection-end-line="267" selection-end-column="32" />
+          <caret line="267" column="32" selection-start-line="267" selection-start-column="32" selection-end-line="267" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -701,7 +626,7 @@
     <entry file="file://$PROJECT_DIR$/site/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#add#0" expanded="false" />
           </folding>
@@ -710,8 +635,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/sith_vs_jedi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="62" column="16" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        <state relative-caret-position="705">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
