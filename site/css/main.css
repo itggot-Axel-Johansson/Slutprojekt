@@ -2,11 +2,6 @@ body {
     margin: 0;
     background-image: url("../img/mörkrymd.jpg");
 }
-h1 {
-    font-size: 100px;
-    color: white;
-    font-family: Roboto;
-}
 header {
     display: flex;
     justify-content: space-between;
@@ -17,12 +12,12 @@ header {
 }
 p {
     color: gold;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
 }
 p2 {
     color: gold;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 .paddingtop16px {
     padding-top: 16px;
@@ -32,6 +27,12 @@ p2 {
 }
 .padding16left {
     padding-left: 16px;
+}
+.padding16lright {
+    padding-right: 16px;
+}
+.padding16px {
+    padding: 16px;
 }
 .socialmedia {
     color: red;
@@ -113,7 +114,7 @@ a {
 }
 h2 {
     color: gold;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 .artikeltext {
     font-size: 12px;
@@ -168,7 +169,11 @@ h2 {
     height: 1039px;
     background-position: -1040px -5px;
 }
-
+h1 {
+    color: gold;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
 h2 {
     font-size: 24px;
 }
@@ -219,6 +224,17 @@ h2 {
 .spacearound {
     justify-content: space-around;
 }
+.flexstart {
+    display: flex;
+    justify-content: flex-start;
+}
+.flexend {
+    display: flex;
+    justify-content: flex-end;
+}
+.castfoto {
+    width: 300px;
+}
 
 @media screen
 and (orientation: portrait)
@@ -241,6 +257,9 @@ and (max-device-width: 767px) {
     .columnmobil{
         display: flex;
         flex-direction: column;
+    }
+    h1 {
+        font-size: 24px;
     }
     h2 {
         font-size: 12px;
@@ -309,6 +328,7 @@ and (max-device-width: 767px) {
 }
 
 
+
 @media screen
 and (orientation: portrait)
 and (max-device-width: 1025px)
@@ -362,6 +382,7 @@ and (min-device-width: 768px){
     .ipadbordertop {
         border-top: solid 1px gold;
     }
+
 
 
 }
