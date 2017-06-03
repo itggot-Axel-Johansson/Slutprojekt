@@ -79,9 +79,7 @@ a {
 .borderbottom {
     border-color: white;
 }
-.links :hover {
-    background-color: ;
-}
+
 .column {
     display: flex;
     flex-direction: column;
@@ -404,13 +402,7 @@ and (min-device-width: 768px){
 .innan {
     display: none;
 }
-.lightsaber {
-    display: block;
-    animation: downwards 0.5s 1;
-}
-.nolightsaber {
-    display: ;
-}
+
 @keyframes downwards {
     0% {
         transform: translate3d(0, -50%, 0);
