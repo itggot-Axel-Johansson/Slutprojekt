@@ -10,6 +10,7 @@ header {
     border: solid gold 1px;
     border-radius: 10%;
 }
+
 p {
     color: gold;
     font-family: 'Roboto', sans-serif;
@@ -235,6 +236,9 @@ h2 {
 .castfoto {
     width: 300px;
 }
+.width100procent {
+    width: 100%;
+}
 
 @media screen
 and (orientation: portrait)
@@ -257,6 +261,11 @@ and (max-device-width: 767px) {
     .columnmobil{
         display: flex;
         flex-direction: column;
+    }
+    .rowcentermobil {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     h1 {
         font-size: 24px;
@@ -394,6 +403,13 @@ and (min-device-width: 768px){
 }
 .innan {
     display: none;
+}
+.lightsaber {
+    display: block;
+    animation: downwards 0.5s 1;
+}
+.nolightsaber {
+    display: ;
 }
 @keyframes downwards {
     0% {

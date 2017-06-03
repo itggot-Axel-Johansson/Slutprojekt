@@ -7,3 +7,4 @@ function add() {
         element.classList.toggle('innan');
     });
 }
+
