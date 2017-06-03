@@ -47,13 +47,15 @@ p2 {
     background-color: black;
 }
 .container {
-
     display: flex;
     flex-direction: column;
     height: 400px;
 }
 .width1000 {
     width: 1000px;
+}
+.width1100 {
+    width: 1100px;
 }
 a {
     font-family: 'Roboto', sans-serif;
@@ -214,6 +216,9 @@ h2 {
 .columnmobil{
     display: flex;
 }
+.spacearound {
+    justify-content: space-around;
+}
 
 @media screen
 and (orientation: portrait)
@@ -302,15 +307,65 @@ and (max-device-width: 767px) {
 
 
 }
+
+
 @media screen
-and (orientation: landscape)
-and (max-device-width: 1023px) {
+and (orientation: portrait)
+and (max-device-width: 1025px)
+and (min-device-width: 768px){
+
+    .ipadrow {
+        display: flex;
+        flex-direction: row;
+    }
+    .ipadcolumn {
+        display: flex;
+        flex-direction: column;
+    }
+    .ipadaqua {
+        background-color: aqua;
+    }
+    .ipadflexstart {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .ipadpaddingleft24px {
+        padding-left: 24px;
+    }
+    .ipaddisplay {
+        display: block;
+    }
+    .ipaddisplaynone {
+        display: none;
+    }
+    .lukeanddarth {
+        display: block;
+        width: 768px;
+    }
+    .sprite {
+        background-image: none;
+        width: auto;
+        height: auto;
+    }
+    .container {
+        height: auto;
+    }
+    .ipadwidth {
+        width: 700px;
+    }
+    .artikeltext {
+        font-size: 14px;
+    }
+    .ipadnoborder {
+        border: none;
+    }
+    .ipadbordertop {
+        border-top: solid 1px gold;
+    }
+
 
 }
-@media screen
-and (max-device-width: 321px) {
 
-}
 /** Divar till JS-funktioner/-metoder **/
 .efter {
     display: block;
